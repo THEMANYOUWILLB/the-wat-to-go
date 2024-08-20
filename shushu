@@ -6,4 +6,4 @@ with open(file_name, "w") as file:
     file.write("If you see this on GitHub, the integration was successful!")
 
 print(f"{file_name} has been created successfully.")
-print
+
