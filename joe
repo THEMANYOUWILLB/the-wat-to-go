@@ -1,0 +1,8 @@
+# Create a file named "test_file.txt" and write some text into it
+
+file_name = "test_file.txt"
+with open(file_name, "w") as file:
+    file.write("This is a test file to check Git integration with PyCharm.\n")
+    file.write("If you see this on GitHub, the integration was successful!")
+
+print(f"{file_name} has been created successfully.")
